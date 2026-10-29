@@ -1,0 +1,42 @@
+/* Here is your custom css styles. */
+
+
+/* 在卡片标题前或标签处强制加上价格样式 */
+.product-price {
+	display: inline-block;
+    color: #ff4d4f;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/** 这是中间9个主图的样式**/
+/* 父容器：开启多列布局 */
+.grid-container {
+  column-count: 2;          /* 核心：固定分为 3 列 */
+  column-gap: 4px;          /* 核心：列与列之间的细缝 */
+  width: 100%;
+  /*max-width: 800px;*/
+}
+
+/* 子图片 */
+.grid-container img {
+  width: 100%;
+  height: auto;             /* 核心：保持原图宽高比 */
+  display: block;
+  margin-bottom: 2px;       /* 核心：行与行之间的细缝 */
+  padding: 0; 
+}
+
+
+
+/*这是联系拍下的3个图片样式*/
+.image-container {
+  display: flex;          /* 开启 flex 布局，让子元素默认排在同一行 */
+  justify-content: space-between; /* 可选：让三张图片在这一行中均匀分布（左、中、右） */
+  align-items: center;    /* 可选：让三张图片垂直居中对齐 */
+}
+
+.image-container img {
+  /* width: 30%;             可选：限制每张图片的宽度，确保它们加起来不超过 100% */
+  height: auto;           /* 保持图片比例不失真 */
+}
