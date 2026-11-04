@@ -22,7 +22,7 @@ curr: 本篇
 prev: 上一篇
 next: 下一篇
 search: 搜索服务商品
-searchTip: 请输入搜索服务的关键字
+searchTip: 请输入搜索宝贝的关键字
 postTagTitle: 文章标签
 postCategoryTitle: 文章分类
 categoryRadarTitle: 文章分类雷达图
@@ -71,8 +71,8 @@ payreprint: 付费转载。
 pleaseFollowReprintPolicy: 复制成功，请遵循本文的转载规则
 checkPolicy: 查看
 siteTotalWords: 站点总字数
-siteTotalVisits: 总访问量
-siteTotalVisitors: 总访问人数
+siteTotalVisits: 量
+siteTotalVisitors: 人
 Index: 首页
 Tags: 标签
 Categories: 分类
