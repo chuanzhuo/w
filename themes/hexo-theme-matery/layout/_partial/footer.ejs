@@ -13,12 +13,12 @@
                 <span id="year"><%- theme.time.year %></span>
             <% } %>
             <a href="<%- url_for('/about') %>" target="_blank"><%- config.author %></a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+<!--             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a> -->
+<!--             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
             <% if (theme.translate.enable) { %>
                 <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
             <% } %>
-            <br>
+<!--             <br> -->
             <% if (theme.postInfo.totalCount) { %>
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;<%- __('siteTotalWords') %>:&nbsp;<span
                         class="white-color"><%= totalcount(site) %></span>
@@ -107,11 +107,30 @@
         </div>
         <div class="col s12 m4 l4 social-link <%- socialClass %>"><%- partial('_partial/social-link') %></div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        // 监听你自定义链接的点击事件
+        var trigger = document.querySelector('.my-search-trigger');
+        if (trigger) {
+        trigger.addEventListener('click', function(e) {
+          //e.preventDefault(); // 阻止默认跳转行为
+
+          // 找到 Matery 主题导航栏原生的搜索按钮并模拟点击
+          var themeSearchBtn = document.querySelector('.modal-trigger');
+          if (themeSearchBtn) {
+          themeSearchBtn.click();
+          }
+        });
+        }
+        });
+      </script>
+
     <!-- Matomo -->
     <script>
       var _paq = window._paq = window._paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setDocumentTitle", document.title]);
       _paq.push(["setCookieDomain", "*.carlzeng.com"]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);

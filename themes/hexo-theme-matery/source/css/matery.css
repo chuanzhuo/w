@@ -385,6 +385,17 @@ header .side-nav .social-link {
     border-radius: 30px;
     box-shadow: none;
 }
+.cover-btns2 a {
+    margin: 10px 15px;
+    padding: 0 35px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    box-shadow: none;
+}
 
 .cover-btns a:hover {
     border: 1px solid #f44336;

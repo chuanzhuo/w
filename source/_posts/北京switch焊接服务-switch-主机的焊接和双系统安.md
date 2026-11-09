@@ -21,9 +21,9 @@ tags:
 注意：新疆、西藏等偏远地区需补邮费差价。
 
 收费标准
-* 标准版：118 元（超薄芯片 +20 元）
-* 续航版：118 元（超薄芯片 +20 元）
-* Lite 版：138 元（全排线方案，安全稳定）
+* 标准版：138 元（超薄芯片 +20 元）
+* 续航版：138 元（超薄芯片 +20 元）
+* Lite 版：158 元（全排线方案，安全稳定）
 * OLED 版：200 元（默认打孔方案，故障率低）
 
 质保服务
@@ -33,7 +33,7 @@ tags:
 建议寄修，收到快递后一般第二天寄回，我们会帮您安装大气层双系统。
 
 线下地址
-北京市通州区潞城镇后北营，支持送机服务，需提前预约或现场排队加急插队（加 58 元）。
+北京市通州区潞城镇，支持自送自取，需提前预约或现场排队加急插队（加 58 元）。
 
 破解时间
 * 标准/续航版：约 1 小时
@@ -42,15 +42,7 @@ tags:
 您可以在附近的麦当劳等候，或逛周边超市和万象汇。
 
 内存卡购买
-需自备内存卡，或购买我们的 A2 高速卡：
-256 GB：170 元（写入速度可达 110 MB/s）
-512 GB：270 元
-
-也可帮忙装满游戏：
-256 GB 装满：55 元
-512 GB 装满：95 元
-单个游戏：5-9 元
-此外，我们提供游戏金手指（2 元一个）、各种补丁、存档修改（10 元一个）。
+建议自备内存卡，或购买我们的 A2 高速卡：
 
 其他改机/修机价格
 具体价格请咨询我们。
@@ -61,7 +53,7 @@ ps5和Xbox手柄摇杆升级
 TMR摇杆一对：130 元（手感好，耗电低，tmr隧道磁阻手感好线性更佳）
 
 坐标 北京通州潞城
-同时也修复switch joycon手柄，pro手柄以及ps5手柄，ps5精英手柄，xbox手柄，xbox精英二代手柄，steamdeck等，
+同时也修复switch joycon手柄，pro手柄以及ps5手柄，ps5精英手柄，xbox手柄，xbox精英二代手柄，steamdeck等改装与维修服务，
 提供全程可追溯每三分钟现场监控截图
 
 安卓手机或电脑用户可查看实时监控
@@ -88,7 +80,14 @@ TMR摇杆一对：130 元（手感好，耗电低，tmr隧道磁阻手感好线�
   <img src="https://img.alicdn.com/bao/uploaded/i4/O1CN01hjvkEi1smZpz2VaNe_!!4611686018427385985-53-fleamarket.heic" title="北京switch焊接服务 Switch 主机的焊接和双系统安">
   <img src="https://img.alicdn.com/bao/uploaded/i3/O1CN01BfMbqm1smZpzNVbT6_!!4611686018427385985-53-fleamarket.heic" title="北京switch焊接服务 Switch 主机的焊接和双系统安">
   <img src="https://img.alicdn.com/bao/uploaded/i1/O1CN01AJJwUo1smZq07YKzG_!!4611686018427385985-53-fleamarket.heic" title="北京switch焊接服务 Switch 主机的焊接和双系统安">
+
+  <img src="https://img.alicdn.com/imgextra/i2/16455809/O1CN01nonOzykzKuJ2vGwq_!!16455809-0-xy_chat.jpg" title="北京switch焊接服务 Switch 主机的焊接和双系统安">
+
 </div>
+
+
+<div class="video-container"><video src="https://wantu-xm4-xianyu-video-hz.oss-cn-hangzhou.aliyuncs.com/aus/xianyu_imvod_private/1444575885/3f84811854744f53ae4aa6efd90129b5.mp4?video_id=2469565225605332" controls="" width="100%" style="border-radius: 8px; cursor: pointer; object-fit: contain;" data-spm-anchor-id="a21ybx.im.0.i13.70ca4f10mg4qKz"></video></div>
+
 
 
 ### 想要私聊？

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片在线转 Base64（本地安全版）</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; color: #333; }
+        .upload-area { border: 2px dashed #ccc; padding: 30px; text-align: center; cursor: pointer; border-radius: 8px; background: #fafafa; }
+        .upload-area:hover { border-color: #ff2741; background: #fff5f6; }
+        #preview { margin-top: 20px; max-width: 100px; max-height: 100px; display: none; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        textarea { width: 100%; height: 150px; margin-top: 20px; display: none; padding: 10px; box-sizing: border-box; border: 1px solid #ddd; border-radius: 4px; font-family: monospace; font-size: 12px; }
+        .btn { display: none; background: #ff2741; color: white; border: none; padding: 10px 20px; margin-top: 10px; border-radius: 4px; cursor: pointer; width: 100%; font-size: 16px; }
+        .btn:hover { background: #e01f37; }
+        .tips { font-size: 12px; color: #666; margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+    <h2>🖼️ 图片转 Base64 编码</h2>
+    <p class="tips">提示：请上传你下载好的高清小红书图标，支持拖拽。</p>
+    
+    <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+        <p>点击选择图片 或 将图片拖拽到此处</p>
+        <input type="file" id="fileInput" accept="image/*" style="display:none">
+    </div>
+
+    <center><img id="preview" alt="预览图"></center>
+    <button class="btn" id="copyBtn" onclick="copyBase64()">复制 Base64 代码</button>
+    <textarea id="output" readonly placeholder="Base64 结果将显示在这里..."></textarea>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const preview = document.getElementById('preview');
+        const output = document.getElementById('output');
+        const copyBtn = document.getElementById('copyBtn');
+
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const base64String = event.target.result;
+                
+                // 显示预览和结果
+                preview.src = base64String;
+                preview.style.display = 'block';
+                output.value = base64String;
+                output.style.display = 'block';
+                copyBtn.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        });
+
+        // 拖拽支持
+        const uploadArea = document.querySelector('.upload-area');
+        uploadArea.addEventListener('dragover', (e) => e.preventDefault());
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileInput.files = e.dataTransfer.files;
+            fileInput.dispatchEvent(new Event('change'));
+        });
+
+        // 复制功能
+        function copyBase64() {
+            output.select();
+            document.execCommand('copy');
+            alert('复制成功！可以去代码中粘贴使用了。');
+        }
+    </script>
+</body>
+</html>
