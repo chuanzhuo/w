@@ -1393,19 +1393,19 @@
             let imgSrc = '';
             if (name === '氦闪主板') {
                 descId = 'desc-helishan';
-                imgSrc = 'mod/pic/hs.jpg';
+                imgSrc = '/mod/pic/hs.jpg';
             } else if (name === '氦闪2主板') {
                 descId = 'desc-helishan2';
-                imgSrc = 'mod/pic/hs2.jpg';
+                imgSrc = '/mod/pic/hs2.jpg';
             } else if (name === 'GNS明日香主板') {
                 descId = 'desc-gns';
-                imgSrc = 'mod/pic/gns.jpg';
+                imgSrc = '/mod/pic/gns.jpg';
             } else if (name === '速跃主板') {
                 descId = 'desc-suyue';
-                imgSrc = 'mod/pic/suiovo.jpg';
+                imgSrc = '/mod/pic/suiovo.jpg';
             } else if (name === 'ProShock主板') {
                 descId = 'desc-proshock';
-                imgSrc = 'mod/pic/proshock.jpg';
+                imgSrc = '/mod/pic/proshock.jpg';
             }
             if (descId) document.getElementById(descId).classList.add('show');
             
@@ -1565,21 +1565,21 @@
             // Set type image and default selections
             let typeImgSrc = '';
             if (type === '凯隆小微动') {
-                typeImgSrc = 'mod/pic/direct.jpg';
+                typeImgSrc = '/mod/pic/direct.jpg';
                 forceModule.style.display = 'block';
                 colorModule.style.display = 'block';
                 // 默认选择90g
                 const defaultForce = forceModule.querySelector('input[type="radio"][data-name="90g"]');
                 if (defaultForce) defaultForce.checked = true;
             } else if (type === '热插拔大微动') {
-                typeImgSrc = 'mod/pic/direction-hotkey.jpg';
+                typeImgSrc = '/mod/pic/direction-hotkey.jpg';
                 configModule.style.display = 'block';
                 colorModule.style.display = 'block';
                 // 默认选择标配TTC金+青龙
                 const defaultConfig = configModule.querySelector('input[type="radio"][data-name="标配TTC金+青龙"]');
                 if (defaultConfig) defaultConfig.checked = true;
             } else if (type === '模块微动') {
-                typeImgSrc = 'mod/pic/direct-plug.jpg';
+                typeImgSrc = '/mod/pic/direct-plug.jpg';
                 colorModule.style.display = 'block';
             } else if (type === '原装软胶垫') {
                 colorModule.style.display = 'block';
@@ -1630,7 +1630,7 @@
                     colorImg.style.display = 'none';
                     colorImg.src = '';
                 } else {
-                    colorImg.src = color === '黑色' ? 'mod/pic/Bkey.jpg' : 'mod/pic/Wkey.jpg';
+                    colorImg.src = color === '黑色' ? '/mod/pic/Bkey.jpg' : '/mod/pic/Wkey.jpg';
                     colorImg.style.display = 'block';
                 }
             }
@@ -1682,21 +1682,21 @@
             // Set type image and default selections
             let typeImgSrc = '';
             if (type === '凯隆小微动') {
-                typeImgSrc = 'mod/pic/abxy.jpg';
+                typeImgSrc = '/mod/pic/abxy.jpg';
                 forceModule.style.display = 'block';
                 colorModule.style.display = 'block';
                 // 默认选择90g
                 const defaultForce = forceModule.querySelector('input[type="radio"][data-name="90g"]');
                 if (defaultForce) defaultForce.checked = true;
             } else if (type === '热插拔大微动') {
-                typeImgSrc = 'mod/pic/abxy-hotkey.jpg';
+                typeImgSrc = '/mod/pic/abxy-hotkey.jpg';
                 configModule.style.display = 'block';
                 colorModule.style.display = 'block';
                 // 默认选择标配TTC金+青龙
                 const defaultConfig = configModule.querySelector('input[type="radio"][data-name="标配TTC金+青龙"]');
                 if (defaultConfig) defaultConfig.checked = true;
             } else if (type === '模块微动') {
-                typeImgSrc = 'mod/pic/abxy-plug.jpg';
+                typeImgSrc = '/mod/pic/abxy-plug.jpg';
                 colorModule.style.display = 'block';
             } else if (type === '原装软胶垫') {
                 colorModule.style.display = 'block';
@@ -1766,7 +1766,7 @@
                     colorImg.style.display = 'none';
                     colorImg.src = '';
                 } else {
-                    colorImg.src = color === '黑色' ? 'mod/pic/Bkey.jpg' : 'mod/pic/Wkey.jpg';
+                    colorImg.src = color === '黑色' ? '/mod/pic/Bkey.jpg' : '/mod/pic/Wkey.jpg';
                     colorImg.style.display = 'block';
                 }
             }
@@ -1779,11 +1779,11 @@
                 const name = shoulderRadio.getAttribute('data-name');
                 let imgSrc = '';
                 if (name === '肩键改装 凯隆弹片微动') {
-                    imgSrc = 'mod/pic/LR1-new.jpg';
+                    imgSrc = '/mod/pic/LR1-new.jpg';
                 } else if (name === '肩键改装 凯隆普通微动') {
-                    imgSrc = 'mod/pic/LR1.jpg';
+                    imgSrc = '/mod/pic/LR1.jpg';
                 } else if (name === '肩键改装 热插拔大微动') {
-                    imgSrc = 'mod/pic/LR1-hot.jpg';
+                    imgSrc = '/mod/pic/LR1-hot.jpg';
                 }
                 if (imgSrc) {
                     shoulderImg.src = imgSrc;
@@ -1841,11 +1841,11 @@
                 const name = triggerRadio.getAttribute('data-name');
                 let imgSrc = '';
                 if (name === '扳机键改装 热插拔大微动') {
-                    imgSrc = 'mod/pic/LR2-hot.jpg';
+                    imgSrc = '/mod/pic/LR2-hot.jpg';
                 } else if (name === '扳机键改装 凯隆普通微动') {
-                    imgSrc = 'mod/pic/LR2.jpg';
+                    imgSrc = '/mod/pic/LR2.jpg';
                 } else if (name === '扳机键改装 双切热插拔微动') {
-                    imgSrc = 'mod/pic/LR2-dual.jpg';
+                    imgSrc = '/mod/pic/LR2-dual.jpg';
                 }
                 if (imgSrc) {
                     triggerImg.src = imgSrc;
@@ -2416,7 +2416,7 @@
                 // 喷漆外壳显示说明和图片
                 if (otherShellRadio.value === '喷漆外壳') {
                     if (oupianDesc) oupianDesc.style.display = 'block';
-                    shellImg.src = 'mod/pic/oupian.jpg';
+                    shellImg.src = '/mod/pic/oupian.jpg';
                     shellImgContainer.style.display = 'flex';
                 } else {
                     if (oupianDesc) oupianDesc.style.display = 'none';
@@ -3539,11 +3539,30 @@
             ];
             images.forEach(name => {
                 const img = new Image();
-                img.src = 'mod/pic/' + name;
+                img.src = '/mod/pic/' + name;
             });
         })();
         
         window.addEventListener('resize', updateImageLabelSizes);
     </script>
+
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.title]);
+        _paq.push(["setCookieDomain", "*.carlzeng.com"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//statcounter.carlzeng.com/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img decoding="async" src="//statcounter.carlzeng.com/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
 </body>
 </html>
