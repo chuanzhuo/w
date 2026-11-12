@@ -88,9 +88,13 @@
                             <% } %>
                         </div>
                         <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i><%= date(post.date, "YYYY") %>
-                            </span>
+<!--                             <span class="publish-date"> -->
+<!--                                 <i class="far fa-clock fa-fw icon-date"></i><%= date(post.date, "YYYY") %> -->
+<!--                             </span> -->
+                            <% if (post.price) { %>
+                                <span class="card-price">¥ <%- post.price %></span>
+                            <% } %>
+
                             <span class="publish-author">
                                 <% if (post.categories && post.categories.length > 0) { %>
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
