@@ -5,7 +5,7 @@ date: 2026-10-29 17:59:59
 price: 94.95
 img: https://img.alicdn.com/bao/uploaded/i4/O1CN014m7yt21smZmYzaB7R_!!4611686018427385985-53-fleamarket.heic
 tags:
-  - Switch
+  - Quest3
 ---
 Quest 3摇杆漂移 摇杆更换 摇杆漂移 摇杆不复位 卡顿 摇杆漂移更换 北京
 

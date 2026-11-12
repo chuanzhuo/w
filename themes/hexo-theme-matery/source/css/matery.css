@@ -1314,21 +1314,22 @@ thead {
 }
 
 .chip-container .chip {
-    margin: 10px 10px;
-    padding: 19px 14px;
+    margin: 10px 1px;             /* 加大按钮之间的间距 */
+    padding: 50px 30px;            /* 大幅增加上下（28px）和左右（26px）内边距 */
     display: inline-flex;
-    line-height: 0;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 5px;
+    line-height: 1;                /* 建议改为 1，避免原代码的 line-height: 0 导致垂直偏移 */
+    font-size: 1.5rem;             /* 放大字号 */
+    font-weight: 600;
+    border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, .12);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
     z-index: 0;
 }
 
 .chip-container .chip:hover {
     color: #fff;
     background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    transform: scale(0.95);
 }
 
 .chip .tag-length {

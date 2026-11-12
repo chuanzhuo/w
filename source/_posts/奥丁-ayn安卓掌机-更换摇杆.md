@@ -5,7 +5,7 @@ date: 2026-10-29 17:59:59
 price: 59.19
 img: https://img.alicdn.com/bao/uploaded/i3/O1CN01CmlSaD1smZiEPgNGj_!!0-fleamarket.jpg
 tags:
-  - Switch
+  - 掌机
 ---
 
 

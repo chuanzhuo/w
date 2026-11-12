@@ -89,7 +89,7 @@
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i><%= date(post.date, config.date_format) %>
+                                <i class="far fa-clock fa-fw icon-date"></i><%= date(post.date, "YYYY") %>
                             </span>
                             <span class="publish-author">
                                 <% if (post.categories && post.categories.length > 0) { %>

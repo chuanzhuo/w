@@ -4,9 +4,9 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  # Tags:
-  #   url: /tags
-  #   icon: fas fa-tags
+  Tags:
+    url: /tags
+    icon: fas fa-tags
   # Categories:
   #   url: /categories
   #   icon: fas fa-bookmark
@@ -78,7 +78,7 @@ dream:
   showTitle: true
   title: 正品 透明 专业 无忧
   text: "
-全程监控 透明可追溯 正规流程 专业服务全面周到，热情 无忧<br>
+全程监控 透明可追溯 正规流程 专业服务全面周到，热情 无忧 <a href='/tags/#tags'>服务中心</a><br>
 
 <br><b>* 改装和修复</b><br>
 通过工作室Switch解决方案，体验主机与手柄操作的高度融合，<a href='/bei-jing-switch-han-jie-fu-wu-switch-zhu-ji-de-han-jie-he-shuang-xi-tong-an/'>Switch改装下单</a><br>
@@ -290,6 +290,10 @@ profile:
   1. 打开手机闲鱼APP扫码<br>
   2. 闲鱼搜索用户: 手柄一修哥, 点击头像后点 “评价” 或 “服务”<br>
   <br>
+  <br>
+  <div class='title center-align aos-init aos-animate' data-aos='zoom-in-up'>
+    <i class='far fa-bar-chart'></i>&nbsp;&nbsp;常用工具
+  </div>
   <div class='container'>
   <div class='cover-btns2'>
     <a href='/mod/' class='waves-effect waves-light btn'>
@@ -297,6 +301,9 @@ profile:
     </a>
     <a href='/bei-jing-switch-han-jie-fu-wu-switch-zhu-ji-de-han-jie-he-shuang-xi-tong-an/' class='waves-effect waves-light btn' target='_blank'>
       <i class='fab fa-golang'></i> Switch主机改装
+    </a>
+    <a href='https://ds5.carlzeng.com:3/#' class='waves-effect waves-light btn' target='_blank'>
+      <i class='fa-arrows-v'></i> DualShock手柄校准工具
     </a>
   </div>
   </div>

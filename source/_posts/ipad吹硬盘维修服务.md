@@ -1,7 +1,7 @@
 ---
 title: iPad吹硬盘维修服务
 categories: 服务商品
-date: 2026-10-29 17:59:59
+date: 2025-10-29 17:59:59
 price: 200
 img: https://img.alicdn.com/bao/uploaded/i3/16455809/O1CN01uoy8Fq1smZrlJvC47_!!4611686018427385985-0-xy_item.jpg
 tags:

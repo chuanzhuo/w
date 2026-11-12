@@ -5,7 +5,7 @@ date: 2026-10-29 17:59:59
 price: 94.25
 img: https://img.alicdn.com/bao/uploaded/i1/O1CN01pK51uZ1smZkGjbNjU_!!53-fleamarket.heic
 tags:
-  - Switch
+  - Quest3
 ---
 
 

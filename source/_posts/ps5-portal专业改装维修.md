@@ -6,6 +6,7 @@ price: 199.6
 img: https://img.alicdn.com/bao/uploaded/i1/16455809/O1CN01X2dJnU1smZrLOJAPh_!!4611686018427385985-53-xy_item.heic
 tags:
   - PS5
+  - PS5串流掌机
 ---
 
 

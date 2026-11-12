@@ -6,6 +6,7 @@ price: 86.84
 img: https://img.alicdn.com/bao/uploaded/i4/O1CN01WZvEkd1smZoQcIgnx_!!4611686018427385985-53-fleamarket.heic
 tags:
   - PS5
+  - PS5串流掌机
 ---
 
 

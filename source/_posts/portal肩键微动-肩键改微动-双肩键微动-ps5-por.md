@@ -6,6 +6,7 @@ price: 99.8
 img: https://img.alicdn.com/bao/uploaded/i3/16455809/O1CN01YVmtYV1smZrPIwHIO_!!4611686018427385985-53-xy_item.heic
 tags:
   - PS5
+  - PS5串流掌机
 ---
 portal肩键微动 肩键改微动 双肩键微动 ps5 portal 双肩键微动 欧姆龙微动 白点120克力 蓝点60克力 portal改微动 北京
 

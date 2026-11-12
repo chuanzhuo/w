@@ -4,6 +4,14 @@
 
     <%- partial('_widget/tag-cloud') %>
 
+    <div style="display: flex; justify-content: center; ">
+    <div class="cover-btns2">
+        <a href="#indexCard" class="waves-effect waves-light btn">
+            <i class="fa fa-angle-double-down"></i>进一步了解
+        </a>
+    </div>
+    </div>
+
     <% if (site.tags && site.tags.length > 0) { %>
     <%- partial('_widget/tag-wordcloud') %>
     <% } %>

@@ -5,7 +5,7 @@ date: 2026-10-29 17:59:59
 price: 320
 img: https://img.alicdn.com/bao/uploaded/i4/16455809/O1CN01Lqg93B1smZqnrV2pI_!!4611686018427385985-0-xy_item.jpg
 tags:
-  - Switch
+  - 掌机
 ---
 aya neo 阿雅掌机steamdeck维修 摇杆更换 摇杆故障 电池风扇主板更换tmr摇杆 n20
 支持aya neo steamdeck维修，电池、风扇、主板等都能修

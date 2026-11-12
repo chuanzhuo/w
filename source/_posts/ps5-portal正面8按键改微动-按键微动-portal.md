@@ -6,6 +6,7 @@ price: 99.6
 img: https://img.alicdn.com/bao/uploaded/i3/16455809/O1CN015ZahL71smZralEgGl_!!4611686018427385985-0-xy_item.jpg
 tags:
   - PS5
+  - PS5串流掌机
 ---
 ps5 portal正面8按键改微动 按键微动 portal正面按键改微动 肩键改微动 北京
 

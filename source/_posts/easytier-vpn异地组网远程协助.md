@@ -1,7 +1,7 @@
 ---
 title: easytier VPN异地组网远程协助
 categories: 服务商品
-date: 2026-10-29 17:59:59
+date: 2025-10-29 17:59:59
 price: 199.6
 img: https://img.alicdn.com/bao/uploaded/i4/16455809/O1CN01YSwaJV1smZsWQ8YDs_!!4611686018427385985-53-xy_item.heic
 tags:
