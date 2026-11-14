@@ -6,7 +6,6 @@ price: 59.6
 img: https://img.alicdn.com/bao/uploaded/i4/O1CN01NfEztb1smZnZn7KeM_!!4611686018427385985-0-fleamarket.jpg
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 joycon底座修复 主板掉底座 switch手柄故障 switch手柄修复 joycon底座修复 joycon电池底座 排线底座

@@ -6,7 +6,6 @@ price: 48.6
 img: https://img.alicdn.com/bao/uploaded/i2/O1CN01TeHJyd1smZhybgFks_!!0-fleamarket.jpg
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 Switch pro手柄漂移维修 摇杆更换 Joycon维修

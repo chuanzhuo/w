@@ -5,7 +5,7 @@ date: 2026-10-29 17:59:59
 price: 320.6
 img: https://img.alicdn.com/bao/uploaded/i4/16455809/O1CN01ZmWsol1smZs9AIvvC_!!4611686018427385985-0-xy_item.jpg
 tags:
-  - Switch
+  - Meta Quest
 ---
 
 

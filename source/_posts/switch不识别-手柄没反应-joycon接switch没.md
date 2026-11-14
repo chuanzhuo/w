@@ -6,7 +6,6 @@ price: 83
 img: https://img.alicdn.com/bao/uploaded/i4/O1CN01warD1B1smZjyTjS2c_!!53-fleamarket.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 switch不识别 手柄没反应 joycon接switch没反应 switch主机滑轨故障更换，

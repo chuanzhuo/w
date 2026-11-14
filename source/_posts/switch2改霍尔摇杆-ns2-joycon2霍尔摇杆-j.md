@@ -6,7 +6,6 @@ price: 85.39
 img: https://img.alicdn.com/bao/uploaded/i2/16455809/O1CN01Xsylrx1smZrhayIQI_!!4611686018427385985-53-xy_item.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 switch2改霍尔摇杆 ns2 joycon2霍尔摇杆 joycon2漂移 switch2漂移 霍尔摇杆 joycon2代霍尔摇杆  肩键失灵，扳机失灵 断触都 都可以解决 北京

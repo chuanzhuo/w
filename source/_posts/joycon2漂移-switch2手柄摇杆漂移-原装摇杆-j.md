@@ -6,7 +6,6 @@ price: 75.62
 img: https://img.alicdn.com/bao/uploaded/i3/O1CN01AaNvt41smZpfIgIwc_!!4611686018427385985-53-fleamarket.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 joycon2漂移 switch2手柄摇杆漂移 原装摇杆 joycon2漂移维修 joycon2手柄漂移 joycon2换摇杆 任天堂原装制品 解决漂移

@@ -6,7 +6,6 @@ price: 23.96
 img: https://img.alicdn.com/bao/uploaded/i2/O1CN01eZ1Tr11smZmQi6MhP_!!4611686018427385985-53-fleamarket.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 

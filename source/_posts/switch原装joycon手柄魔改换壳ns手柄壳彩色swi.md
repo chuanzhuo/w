@@ -6,7 +6,6 @@ price: 128
 img: https://img.alicdn.com/bao/uploaded/i4/O1CN01MYRy7S1smZlEntgXg_!!4611686018427385985-53-fleamarket.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 switch原装joycon手柄魔改换壳NS手柄壳彩色switch手柄 左右替换壳蓝光渐变色透明彩壳

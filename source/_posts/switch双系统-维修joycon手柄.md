@@ -6,7 +6,6 @@ price: 89.6
 img: https://img.alicdn.com/bao/uploaded/i2/16455809/O1CN012c88Ki1smZqzNcsEw_!!4611686018427385985-53-xy_item.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 switch双系统修复 switch排线修复 微动更换 switch pro手柄维修，按键排线、导电膜、肩键膜都能换，适合按键失灵、接触不良、漂移、灯不亮、无法充电等问题，joycon修复 按键不灵 摇杆漂移 无法充电 不开机switch 不开机joycon修复 北京

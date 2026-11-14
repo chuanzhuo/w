@@ -5,7 +5,7 @@ menu:
     url: /
     icon: fas fa-home
   Tags:
-    url: /tags
+    url: /tags/#tags
     icon: fas fa-tags
   # Categories:
   #   url: /categories

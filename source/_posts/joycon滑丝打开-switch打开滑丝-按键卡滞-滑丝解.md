@@ -6,7 +6,6 @@ price: 13.87
 img: https://img.alicdn.com/bao/uploaded/i3/16455809/O1CN01Vya5RG1smZrRJE4JZ_!!4611686018427385985-53-xy_item.heic
 tags:
   - Switch
-  - Switch
   - Joycon
 ---
 joycon滑丝打开 switch打开滑丝 按键卡滞 滑丝解决 lite滑丝打开 摇杆更换 外壳更换 按键卡滞修复 滑丝处理 北京
